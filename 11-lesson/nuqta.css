@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefien Sans', sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding: 3% 10%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    color: green;
+}
+/* .hero nav .chap{
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+} */
+.chap ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.chap ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+nav ul li a:hover{
+    color: green;
+    transition: .3s;
+    cursor: pointer;
+}
+nav .oq{
+    display: flex;
+    justify-content: center;
+}
+.oq p{
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.oq i{
+    padding: 20px;
+background: rgb(72, 72, 72);
+border-radius: 50%;
+margin: 8px;
+margin-left: 70px;
+color: white;
+
+}
+
+.ok{
+  display: flex;  
+}
+.ok p{
+    color: white;
+}
+button{
+        border: none;
+        background: green;
+        padding: 12px 30px;
+        border-radius: 30px;
+        color: white;
+        font-weight: 30px;
+        font-size: 15px;
+        margin-right: 10px;
+    
+}
+
+
+

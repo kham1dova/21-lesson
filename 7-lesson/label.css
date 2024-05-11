@@ -1,0 +1,21 @@
+h3 {
+    font-family: "Courier New", Courier, monospace;
+    width: 300px;
+    background: black;
+    color: aliceblue;
+    height: 40px;
+  }
+  form{
+    background-color: red;
+    width: 650px;
+  }
+  label{
+    color: aliceblue;
+  }
+  input{
+    width: 500px;
+  }
+  .day{
+    width: 200px;
+  }
+  

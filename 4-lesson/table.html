@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Jadval hususiyatlari bilan ishlash</h1>
+    <h2 id="satr"> Jadval sarlavhasini satr korinishida yozish</h2>
+    <table border="1">
+        <tr>
+            <th>F.I.SH</th>
+            <th>Bahosi</th>
+            <th>Guruhi</th>
+        </tr>
+        <tr>
+            <td>Ikramov A</td>
+            <td>80</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Akromov M</td>
+            <td>80</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Ikromova D</td>
+            <td>80</td>
+            <td>34</td>
+        </tr>
+        </table>
+     <br />
+
+     <hr color="red" size="2"/>
+     <h2 id="ustun">Jadval sarlavhasini ustun korinishida yozish</h2>
+     <table border="1">
+     <tr>
+        <th>F.I.SH</th>
+        <td>Ikromov A</td>
+        <td>Ikromova D</td>
+        <td>Akromov M</td>
+     </tr>
+
+     <tr>
+        <th>Bahosi</th> 
+        <td>80</td> 
+        <td>85</td> 
+        <td>77</td> 
+     </tr>
+
+     <tr>
+        <th>Guruhi</th>
+        <td>34</td>
+        <td>32</td>
+        <td>37</td>
+     </tr>
+     </table>
+     <br />
+     <hr color="pink" size="2">
+
+     <br />
+     <hr color="black"size="2">
+     <h2 id="caption">Jadvalning Caption,thead,tbody,tfoot hususiyatlari</h2>
+     <table border="1">
+     <caption>
+        Harajatlar ro`yhati
+     </caption>
+     <thead>
+        <tr>
+            <th>Harajatlar nomi</th>
+            <th>Pul miqdori</th>
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+            <th>2 kg sabzi</th>
+            <td>10 000</td>
+        </tr>
+        <tr>
+            <th>1 kg guruch</th>
+            <td>13 000</td>
+        </tr>
+        <tr>
+            <th>1 kg go`sht</th>
+            <td>80 000</td>
+        </tr>
+     </tbody>
+     <tfoot>
+        <tr>
+            <th>Umumiy</th>
+            <td>103 000</td>
+        </tr>
+     </tfoot>
+     </table>
+     <br />
+     <hr color="yellow" size="2"/>
+     <h2 id="Colspan">Jadvalning colspan xususiyati</h2>
+     <table border="1">
+        <tr>
+            <th colspan="2">F.I.SH</th>
+            <th>Yoshi</th>
+        </tr>
+        <tr>
+            <td>Ikromov A</td> 
+            <td>Ikromova D</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Akromov M</td>
+            <td>Akromova U</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Majidova M</td>
+            <td>Sobirova U</td>
+            <td>27</td>
+        </tr>
+         </table>
+         <br />
+         <hr color="green" size="2">
+         <h2 id="rovspan">Jadvalning ROWSPAN xususiyatlari</h2>
+         <table border="1">
+            <tr>
+                <th>F.I.SH</th>
+                <td>Ikramov A</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Dasturlash tillari</th>
+                <td>Paython</td>
+                <tr>
+                    <td>JAVASCRIPT</td>
+                </tr>
+            </tr>
+                <th rowspan="2">Qancha malaka borligi</th>
+                <td>2</td>
+                <tr>
+                    <td>3</td>
+                </tr>
+            </tr>
+        </table>
+        <br />
+        <hr color="green" size="3">
+         <h2 id="rovspan"> Jadvalning ROWSPAN xususiyatlari</h2>
+         <table border="1">
+             
+                
+                <tr>
+                    <th rowspan="3">Day</th>
+                    <th colspan="3">Seminar</th>
+             </tr>
+             <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+             </tr>
+             <tr>
+                <th>Begin</th>
+                <th>End</th>
+             </tr>
+             <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 a.m.</td>
+                <td rowspan="2">5:00 p.m.</td>
+                <td>introduction</td>
+             </tr>
+             <tr>
+             <td>Validity:DTD and Relax NG</td>
+             </tr>
+             <tr>
+                <td rowspan="3">Thusdey</td>
+                <td>8:00 a.m.</td>
+                <td>11:00 a.m.</td>
+                <td rowspan="2">XPath</td>
+          </tr>
+          <tr>
+            <td>11:00 a.m.</td>
+            <td>2:00 p.m.</td>
+         </tr>
+         <tr>
+            <td>2:00 p.m.</td>
+            <td>5:00 p.m.</td>
+            <td>XSL Transformations</td>
+ </tr>
+ <tr>
+    <td rowspan="1">Wednesday</td>
+    <td>8:00 a.m.</td>
+    <td>12:00 p.m.</td>
+    <td>XSL Formatting Objects</td>
+ </tr>
+</table>
+
+<h1>Table vazifa</h1>
+
+<table border="1">
+    <tr>
+    <th colspan=>Header Column 1</th>
+    <th>Header Column 2</th>
+    <th colspan="2">Header Column 3</th>
+    <th>Header Column 4</th>
+    </tr>
+    <tr>
+        <td rowspan="4">Row 2-Item 1</td>
+        <td rowspan="4">Row 2-Item 2</td>
+        <th colspan="2">Row 2:Nested table 1</th>
+        <td rowspan="4">Row 2-Item 4 A second line</td>
+        </tr>
+       <tr>
+        <th>Row 1 Header</th>
+        <td>item</td>
+       </tr>
+     <tr>
+        <th>Row 2 Header</th>
+        <td>item</td>
+      </tr>
+     <tr>
+        <th>Row 2 Header</th>
+        <td>item</td>
+        </tr>
+        <tr>
+            <td>Row 3-Item 1</td>
+            <td>Row 3-Item 2</td>
+            <td colspan="2"></td>
+            <td>Row 3-Item 3</td>
+        </tr>
+        <tr>
+            <td>Row 4-Item 1</td>
+            <td>Row 4-Item 2</td>
+            <td colspan="2">Row 4-Item 3</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

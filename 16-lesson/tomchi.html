@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .drip {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: block;
+        widows: 100px;
+        height: 18px;
+        background: rgb(86, 154, 181);
+        border-radius: 50%;
+        transform: translate(-50%, 400%);
+      }
+      .drip:before,
+      .drip:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        background: rgb(89, 178, 213);
+        border-radius: 75%;
+        opacity: 0.5;
+        transform: translate(-50%,50%) scale(1);
+        animation: ripple 1s infinite ease-out;
+      }
+      .drip:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 0 50% 50%;
+        transform: translate(-50%, -1000%) rotate(45deg);
+        animation: drip 1s infinite ease-in;
+      }
+      @keyframes ripple {
+        0% {
+          transform: translate(-50%, -50%) scale(1);
+          opacity: 0.6;
+        }
+        100% {
+          transform: translate(-50%, 50%) scale(2);
+          opacity: 0;
+        }
+    }
+    @keyframes drip{
+        0%{
+            transform:translate(-50%-1000%) rotate(45deg);
+            opacity: 0;
+        }
+        50%{
+            transform: translate(-50%,0) rotate(45deg);
+            opacity: 1;
+        }
+        100%{
+            transform: translate(-50%,0)rotate(45deg);
+        }
+    }
+        
+    </style>
+  </head>
+  <body>
+    <div class="drip"></div>
+  </body>
+</html>

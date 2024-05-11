@@ -1,0 +1,21 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+}
+.box::before{
+    content: "Before";
+    background-color: #f00;
+    color: #fff;
+    padding: 5px;
+}
+.box::after{
+    content: "After";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #00f;
+    color: #fff;
+    padding: 5px;
+}

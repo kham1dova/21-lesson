@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#7fbfff,#5aacfe);
+    overflow: hidden;
+}
+.cloud{
+    width: 200px;
+    height: 65px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation-name: cloud;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes cloud{
+    0%{
+        left: -200px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+.cloud::before{
+    content: "";
+    width: 65px;
+    height: 65px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.cloud::after{
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    top: -40px;
+    left: 80px;
+}
+.cloud2{
+    margin-top: 20px;
+    top: 200px;
+    left: 80%;
+    animation-name: cloud2;
+}
+@keyframes cloud2 {
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: -200px;
+    }
+}
+.mountain{
+    width: 420px;
+    height: 420px;
+    background-color: dodgerblue;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: -210px;
+    left: 35%;
+}
+.mountain::after{
+    content: "";
+    width: 420px;
+    height: 420px;
+    background-color: dodgerblue;
+    position: absolute;
+    top: 380px;
+    left: -400px;
+}
+.mountain::before{
+    content: "";
+    width: 420px;
+    height: 420px;
+    background-color: dodgerblue;
+    position: absolute;
+    top: -420px;
+    left: 360px;
+}
+.sun{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -100px;
+    left: 28%;
+    animation: sun 15s linear 1s infinite alternate;
+    z-index: -1;
+}
+@keyframes sun{
+    0%{
+        bottom: -100px;
+        background-color: rgb(249, 76, 13);
+    }
+    40%{
+        background-color: yellow;
+        box-shadow: 0 0 80px 15px yellow;
+    }
+    100%{
+        background-color: rgb(249, 76, 13);
+        bottom: 80%;
+        box-shadow: 0 0 80px 15px yellow;
+    }
+}

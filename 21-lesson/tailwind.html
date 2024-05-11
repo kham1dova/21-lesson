@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./tailwind.css" />
+  </head>
+  <body>
+    <!--container-->
+    <div
+      class="w-[500px] h-[500px] bg-[green] flex justify-between flex-col box"
+    >
+      <!--box-->
+      <div class="w-24 h-24 bg-[red] rotate-45 mt-[18px]"></div>
+      <div
+        class="w-24 h-24 bg-[yellow] hover:bg-[red] hover:rounded-[10px] duration-1000 active:skew-x-[45deg]"
+      ></div>
+      <div
+        class="w-24 h-24 bg-[blue] active:scale-[90%] translate-x-[200px] translate-y-[-200px] rotate-45 flex items-center justify-center"
+      >
+        <h1 class="text-white text-[25px] text-center font-[900]">hello</h1>
+      </div>
+    </div>
+  </body>
+</html>

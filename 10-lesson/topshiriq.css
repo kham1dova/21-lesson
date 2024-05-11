@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .hr {
+    color: red;
+    background-color: white;
+    margin-top: 40px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .hello {
+    font-size: 10px;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .miod {
+    background: url("./image_2024-03-17_19-46-22.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+  }
+  
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    font-size: 20px;
+    padding-bottom: 90px;
+    color: white;
+  }
+  
+  .zobac {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    color: black;
+    background-color:  #d8ae5e;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+  }
+  
+  .onas {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+  .smth {
+    margin-top: 40px;
+    width: 120px;
+    opacity: 0px;
+    border: 1px solid #d8ae5e;
+    margin-bottom: 10px;
+  }
+  .osada {
+    width: 598px;
+    height: 120px;
+    color: #090909;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .crazy {
+    width: 136px;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background: #d8ae5e;
+  }
+  
+  .icons {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+    color: #d8ae5e;
+    margin-bottom: 10px;
+  }
+  .words {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+    gap: 40px;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.14px;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+  .smthsecond {
+    margin-top: 40px;
+    width: 120px;
+    opacity: 0px;
+    border: 1px solid #d8ae5e;
+    margin-bottom: 40px;
+  }
+  .allone {
+    background: #f4f4f4;
+    width: 1440px;
+    height: 400px;
+    top: 1309px;
+    left: 6px;
+    padding: 64px 128px 64px 128px;
+  }
+  
+  .allicons {
+    width: 1000px;
+  }
+  .call p{
+    align-content: space-between;
+    justify-content: space-evenly;
+  }
+  .call{
+    padding-left: 650px;
+    background: #f4f4f4;
+    height: 500px;
+
+  }
+  .ul{
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .heart{
+    margin-right: 600px;
+  }
+  .blog{
+    color: #d8ae5e;
+  }
+  .do{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 24px;
+    line-height: 96px;
+    margin-bottom: 15px;
+  }
+  #poz{
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    line-height: 20.11px;
+    letter-spacing: 0.05;
+  }
+  .pozrhr{
+    margin-top: 10px;
+    width: 120px;
+    border: 1px solid #d8ae5e;
+    margin-bottom: 40px; 
+  }
+  .poznum{
+    height: 60px;
+    font-size: 20px;
+  }
+  .moon {
+    display: flex;
+    margin-top: 40px;
+    color: #d8ae5e;
+    gap: 40px;
+    width: 150px;
+    justify-content: space-evenly;
+    font-size: 30px;
+  }
+  .phone{
+    line-height: 20.11px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin-top: 40px;
+  }
+  .oq{
+    margin-top: 5px;
+  }
+  .book{
+  width: 280px;
+  height: 5px;
+  background: black;
+  margin-top: 3px;
+  }
+  .bag{
+    display: flex;
+    margin-top: 50px;
+    color: #d8ae5e;
+    gap: 40px;
+    width: 150px;
+    justify-content: space-evenly;
+    font-size: 30px;
+  }
+  .clap{
+    margin-top: 50px;
+  }
+  .box{
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    color: #f4f4f4;
+    text-align: center;
+    line-height: 200px;
+    margin: 50px auto;
+    cursor: pointer;
+    transition: background-color 0.3;
+  }
+  .box:hover{
+    background-color: #2980b9;
+  }
+  .box.transition{
+    transition: 0.3s;
+  }
+  .box.transition:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+
+  

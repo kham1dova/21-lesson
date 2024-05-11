@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li:nth-child(3n){
+            color: blue;
+        }
+        li:nth-child(even){
+            background-color: aqua;
+        }
+        div p:first-child{
+            font-weight: bold;
+        }
+        ul li:last-child{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>:nth-child() Example</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <h2>:first-child Example</h2>
+    <div>
+        <p>First paragraph</p>
+        <p>Second paragraph</p>
+        <p>Third paragraph</p>
+    </div>
+    <h2>:last-child Example</h2>
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Last item</li>
+    </ul>
+</body>
+</html>

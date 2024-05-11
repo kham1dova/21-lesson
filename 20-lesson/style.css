@@ -1,0 +1,76 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+nav {
+  background-color: #333;
+  width: 100%;
+}
+nav div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 50px;
+  img {
+    width: 50px;
+    border-radius: 50px;
+  }
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding-left: 50px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.california {
+  background: url("./Acer_Wallpaper_03_5000x2813.jpg");
+  height: 500px;
+  padding: 80px;
+}
+.california h1 {
+  width: 100px;
+  color: blue;
+}
+.na {
+  width: 270px;
+  color: white;
+}
+.bar {
+  color: blue;
+}
+@media (max-width: 1050px) {
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 637px) {
+  .container {
+    width: 50px;
+  }
+}
+/* @media (max-width:598px) {
+  .container{
+    width: 450px;
+  }
+} */

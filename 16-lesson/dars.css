@@ -1,0 +1,33 @@
+body{
+    background: rgb(43, 159, 198);
+}
+div i{
+    color: white;
+    font-size:400px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 7s;
+    
+}
+@keyframes example{
+    0%,100% {
+        left:0;
+        color: darkblue;
+    }
+    20%{
+        color: red;
+    }
+    35%{
+        color: yellow;
+    }
+    50%{
+        left: 1000px;
+        color: darkblue;
+    }
+    75%{
+        color: blueviolet;
+    }
+    100%{
+        color: chartreuse;
+    }
+}

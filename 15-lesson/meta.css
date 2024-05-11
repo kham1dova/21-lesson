@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background: url(./Acer_Wallpaper_03_5000x2813.jpg);
+}
+.hh {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(46, 182, 220);
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.find {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: space-between;
+  color: white;
+  font-weight: 800;
+}
+.home {
+  font-weight: 800;
+  color: black;
+}
+.america {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.america h1 {
+  font-size: 40px;
+  color: rgb(46, 220, 220);
+}
+.america h2 {
+    font-size: 60px;
+}
+.read {
+  margin-top: 30px;
+  border-radius: 50px;
+  border: none;
+  height: 35px;
+  width: 100px;
+  background: rgb(227, 98, 52);
+  color: white;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 30px;
+  background: rgb(23, 23, 194);
+  height: 370px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.text input {
+  height: 30px;
+  padding-left: 10px;
+}
+.any {
+  display: flex;
+  align-items: center;
+}
+
+input {
+    outline: none;
+}
+
+.submit{
+    /* margin-top: 30px; */
+    border-radius: 50px;
+    border: none;
+    height: 35px;
+    width: 100px;
+    background: rgb(227, 98, 52);
+    color: white;
+    margin-left: 60px;
+}
